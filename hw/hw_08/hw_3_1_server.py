@@ -1,0 +1,209 @@
+import sys
+import select
+import argparse
+from socket import *
+from common.utilits import receive_message, send_message
+from common.constants import *
+from log_config.server_log_config import SERVER_LOGGER
+from decorator.decorator import log
+
+
+@log
+def parse_client_msg(message, messages_list, sock, clients_list, names):
+    """
+    обработчик сообщений клиентов
+    :param message: словарь сообщения
+    :param messages_list: список сообщений
+    :param sock: клиентский сокет
+    :param clients_list: список клиентских сокетов
+    :param names: список зарегистрированных клиентов
+    :return: словарь ответа
+    """
+    SERVER_LOGGER.debug(f'Разбор сообщения от клиента: {message}')
+    print(f'Разбор сообщения от клиента: {message}')
+
+    # возвращает сообщение о присутствии
+    if ACTION in message and \
+            message[ACTION] == PRESENCE and \
+            TIME in message and \
+            USER in message:
+
+        # авторизация
+        if message[USER][ACCOUNT_NAME] not in names.keys():
+            names[message[USER][ACCOUNT_NAME]] = sock
+            send_message(sock, RESPONSE_200)
+        else:
+            response = RESPONSE_400
+            response[ERROR] = 'Имя пользователя уже занято.'
+            send_message(sock, response)
+            clients_list.remove(sock)
+            sock.close()
+        return
+
+    # формирует очередь сообщений
+    elif ACTION in message and \
+            message[ACTION] == MESSAGE and \
+            SENDER in message and \
+            DESTINATION in message and \
+            MESSAGE_TEXT in message and \
+            TIME in message:
+        messages_list.append(message)
+        return
+
+    # выход клиента
+    elif ACTION in message and \
+            message[ACTION] == EXIT and \
+            ACCOUNT_NAME in message:
+        clients_list.remove(names[message[USER][ACCOUNT_NAME]])
+        names[message[USER][ACCOUNT_NAME]].close()
+        del names[message[USER][ACCOUNT_NAME]]
+        return
+
+    # возвращает сообщение об ошибке
+    else:
+        response = RESPONSE_400
+        response[ERROR] = 'Некорректный запрос.'
+        send_message(sock, response)
+        return
+
+
+@log
+def route_client_msg(message, names, clients):
+    """
+    адресная отправка сообщений.
+    :param message: словарь сообщения
+    :param names: список зарегистрированных клиентов
+    :param clients: список слушающих клиентских сокетов
+    :return:
+    """
+    if message[DESTINATION] in names and \
+            names[message[DESTINATION]] in clients:
+        send_message(names[message[DESTINATION]], message)
+        SERVER_LOGGER.info(
+            f'Отправлено сообщение пользователю {message[DESTINATION]} '
+            f'от пользователя {message[SENDER]}.')
+    elif message[DESTINATION] in names and \
+            names[message[DESTINATION]] not in clients:
+        raise ConnectionError
+    else:
+        SERVER_LOGGER.error(
+            f'Пользователь {message[DESTINATION]} не зарегистрирован на сервере, '
+            f'отправка сообщения невозможна.')
+
+
+@log
+def parse_cmd_arguments():
+    """
+    парсер аргументов командной строки
+    :return: ip-адрес и порт сервера
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p',
+                        default=DEFAULT_PORT,
+                        type=int,
+                        nargs='?')
+    parser.add_argument('-a',
+                        default='',
+                        nargs='?')
+
+    namespace = parser.parse_args(sys.argv[1:])
+    addr = namespace.a
+    port = namespace.p
+
+    # Валидация номера порта
+    if port < 1024 or port > 65535:
+        SERVER_LOGGER.critical(
+            f'Попытка запуска сервера с указанием неподходящего порта '
+            f'{port}. Допустимы адреса с 1024 до 65535.')
+        sys.exit(1)
+
+    return addr, port
+
+
+def main():
+    # извлекает ip-адрес и порт из командной строки
+    listen_addr, listen_port = parse_cmd_arguments()
+
+    # создает TCP-сокет сервера
+    server_tcp = socket(AF_INET, SOCK_STREAM)
+
+    # связывает сокет с ip-адресом и портом сервера
+    server_tcp.bind((listen_addr, listen_port))
+
+    # таймаут для операций с сокетом
+    server_tcp.settimeout(0.5)
+
+    # запускает режим прослушивания
+    server_tcp.listen(MAX_CONNECTIONS)
+
+    SERVER_LOGGER.info(
+        f'Запущен сервер, порт для подключений: {listen_port}, '
+        f'адрес с которого принимаются подключения: {listen_addr}. '
+        f'Если адрес не указан, принимаются соединения с любых адресов.')
+
+    print(f'Запущен сервер, порт для подключений: {listen_port}, '
+          f'адрес с которого принимаются подключения: {listen_addr}.')
+
+    # список клиентов и очередь сообщений
+    all_clients = []
+    all_messages = []
+
+    # словарь зарегистрированных клиентов: ключ - имя пользователя, значение - сокет
+    all_names = dict()
+
+    while True:
+        # принимает запрос на соединение
+        # возвращает кортеж (новый TCP-сокет клиента, адрес клиента)
+        try:
+            client_tcp, client_addr = server_tcp.accept()
+        except OSError:
+            pass
+        else:
+            SERVER_LOGGER.info(
+                f'Установлено соедение с клиентом {client_addr}')
+            print(f'Установлено соедение с клиентом {client_addr}')
+            all_clients.append(client_tcp)
+
+        r_clients = []
+        w_clients = []
+        errs = []
+
+        # запрашивает информацию о готовности к вводу, выводу и о наличии
+        # исключений для группы дескрипторов сокетов
+        try:
+            if all_clients:
+                r_clients, w_clients, errs = select.select(
+                    all_clients, all_clients, [], 0)
+        except OSError:
+            pass
+
+        # чтение запросов из списка клиентов
+        if r_clients:
+            for r_sock in r_clients:
+                try:
+                    parse_client_msg(
+                        receive_message(r_sock),
+                        all_messages,
+                        r_sock,
+                        all_clients,
+                        all_names)
+                except Exception as ex:
+                    SERVER_LOGGER.error(
+                        f'Клиент отключился от сервера. '
+                        f'Тип исключения: {type(ex).__name__}, аргументы: {ex.args}')
+                    all_clients.remove(r_sock)
+
+        # роутинг сообщений адресатам
+        for msg in all_messages:
+            try:
+                route_client_msg(msg, all_names, w_clients)
+            except Exception:
+                SERVER_LOGGER.info(
+                    f'Связь с клиентом {msg[DESTINATION]} была потеряна')
+                all_clients.remove(all_names[msg[DESTINATION]])
+                del all_names[msg[DESTINATION]]
+        all_messages.clear()
+
+
+if __name__ == '__main__':
+    main()

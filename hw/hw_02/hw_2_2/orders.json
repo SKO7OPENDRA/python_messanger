@@ -1,0 +1,60 @@
+{
+    "orders": [
+        {
+            "item": "order 1",
+            "quantity": 10,
+            "price": 5000,
+            "buyer": "Ivanov",
+            "date": "01.01.2001"
+        },
+        {
+            "item": "order 2",
+            "quantity": 20,
+            "price": 10000,
+            "buyer": "Petrov",
+            "date": "02.02.2002"
+        },
+        {
+            "item": "order 3",
+            "quantity": 15,
+            "price": 15000,
+            "buyer": "Sidorov",
+            "date": "03.03.2003"
+        },
+        {
+            "item": "order 4",
+            "quantity": 20,
+            "price": 20000,
+            "buyer": "Kharitonov",
+            "date": "04.04.2004"
+        },
+        {
+            "item": "order 1",
+            "quantity": 10,
+            "price": 5000,
+            "buyer": "Ivanov",
+            "date": "01.01.2001"
+        },
+        {
+            "item": "order 2",
+            "quantity": 20,
+            "price": 10000,
+            "buyer": "Petrov",
+            "date": "02.02.2002"
+        },
+        {
+            "item": "order 3",
+            "quantity": 15,
+            "price": 15000,
+            "buyer": "Sidorov",
+            "date": "03.03.2003"
+        },
+        {
+            "item": "order 4",
+            "quantity": 20,
+            "price": 20000,
+            "buyer": "Kharitonov",
+            "date": "04.04.2004"
+        }
+    ]
+}

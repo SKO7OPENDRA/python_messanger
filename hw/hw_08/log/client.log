@@ -1,0 +1,1025 @@
+2020-03-31 00:03:44,565 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:44,571 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:03:44,575 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:03:44,675 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:44,675 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:03:44,677 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:03:45,580 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 00:03:45,680 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 00:03:46,986 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:46,987 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:03:47,154 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:47,154 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:03:47,157 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:03:47,158 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:03:47,161 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:03:47,161 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602227.1589065, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:03:47,228 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:47,228 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:03:47,230 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:03:47,232 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:03:47,234 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:03:47,235 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:03:47,235 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602227.2327693, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:03:47,236 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:03:47,236 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:03:47,236 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602227.1589065, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>}), {}), возвращает None 
+2020-03-31 00:03:47,236 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63765), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:03:47,239 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:03:47,240 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:03:47,303 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:03:47,303 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:03:47,305 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:03:47,307 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:03:47,310 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:03:47,310 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:03:47,310 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602227.3076303, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:03:47,311 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:03:47,312 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:03:47,312 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602227.2327693, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>, <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63767)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, 'cl_2': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>}), {}), возвращает None 
+2020-03-31 00:03:47,312 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63766), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:03:47,314 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:03:47,315 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:03:47,814 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:03:47,817 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:03:47,817 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602227.3076303, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63767)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>, <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63767)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63765)>, 'cl_2': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63766)>, 'cl_3': <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63767)>}), {}), возвращает None 
+2020-03-31 00:03:47,817 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:03:47,817 DEBUG decorator Функция parse_server_msg((<socket.socket fd=692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63767), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:03:47,819 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:03:47,822 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:04:07,225 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:04:07,225 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:04:07,226 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:04:07,230 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:04:07,231 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:04:07,232 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63765), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:04:07,232 DEBUG decorator Функция parse_server_msg((<socket.socket fd=692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63767), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:04:07,235 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:04:07,235 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63766), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:06:29,034 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:06:29,034 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:06:29,161 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:06:29,161 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:06:29,163 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:06:29,165 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:06:29,167 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:06:29,167 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602389.165382, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:06:29,246 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:06:29,246 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:06:29,249 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:06:29,251 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:06:29,252 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:06:29,253 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:06:29,253 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602389.2512221, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:06:29,254 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:06:29,254 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602389.165382, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>}), {}), возвращает None 
+2020-03-31 00:06:29,254 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:06:29,254 DEBUG decorator Функция parse_server_msg((<socket.socket fd=688, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63810), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:06:29,257 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:06:29,259 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:06:29,310 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:06:29,310 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:06:29,312 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:06:29,314 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:06:29,315 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:06:29,316 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:06:29,316 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602389.3141048, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:06:29,317 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:06:29,317 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:06:29,317 DEBUG decorator Функция parse_server_msg((<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63811), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:06:29,318 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602389.2512221, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>, <socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63812)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, 'cl_2': <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>}), {}), возвращает None 
+2020-03-31 00:06:29,320 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:06:29,321 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:06:29,821 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:06:29,823 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:06:29,823 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:06:29,823 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602389.3141048, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63812)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>, <socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63812)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63810)>, 'cl_2': <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63811)>, 'cl_3': <socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63812)>}), {}), возвращает None 
+2020-03-31 00:06:29,823 DEBUG decorator Функция parse_server_msg((<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63812), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:06:29,825 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:06:29,827 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:06:37,774 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:06:37,774 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:06:37,776 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:06:37,779 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:06:37,779 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:06:37,779 DEBUG decorator Функция parse_server_msg((<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63812), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:06:37,779 DEBUG decorator Функция parse_server_msg((<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63811), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:06:37,780 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:06:37,780 DEBUG decorator Функция parse_server_msg((<socket.socket fd=688, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63810), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:07:21,892 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:07:21,892 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'Krepkov') 
+2020-03-31 00:07:21,894 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Krepkov 
+2020-03-31 00:07:22,897 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 00:07:28,071 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:07:28,072 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:07:28,197 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:07:28,197 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:07:28,200 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:07:28,202 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:07:28,204 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:07:28,204 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602448.202138, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:07:28,284 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:07:28,284 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:07:28,286 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:07:28,288 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:07:28,289 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:07:28,290 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:07:28,290 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602448.288477, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:07:28,291 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:07:28,291 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602448.202138, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>}), {}), возвращает None 
+2020-03-31 00:07:28,292 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:07:28,292 DEBUG decorator Функция parse_server_msg((<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63815), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:07:28,294 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:07:28,296 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:07:28,365 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:07:28,366 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:07:28,368 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:07:28,370 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:07:28,371 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:07:28,372 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:07:28,372 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602448.3708239, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:07:28,373 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:07:28,373 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602448.288477, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>}), {}), возвращает None 
+2020-03-31 00:07:28,373 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:07:28,373 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63816), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:07:28,376 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:07:28,378 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:07:28,877 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:07:28,879 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:07:28,879 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:07:28,879 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602448.3708239, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:07:28,879 DEBUG decorator Функция parse_server_msg((<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63817), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:07:28,882 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:07:28,884 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:18,721 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:18,721 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:08:18,851 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:18,851 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:08:18,854 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:08:18,856 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:08:18,858 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:18,858 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602498.8561006, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:08:18,964 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:18,964 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:08:18,966 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:08:18,968 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:08:18,969 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:18,971 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:18,972 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602498.96889, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:08:18,972 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:18,972 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:18,972 DEBUG decorator Функция parse_server_msg((<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63818), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:08:18,972 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602498.8561006, 'user': {'account_name': 'cl_1'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63819)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:18,974 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:18,975 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:18,976 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:18,979 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:18,979 DEBUG decorator Функция parse_server_msg((<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63818), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:08:19,011 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:19,012 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:08:19,014 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:08:19,016 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:08:19,017 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,018 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:19,018 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602499.0163019, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:08:19,018 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:19,019 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602498.96889, 'user': {'account_name': 'cl_2'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>, <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63820)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:19,019 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:19,019 DEBUG decorator Функция parse_server_msg((<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63819), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,021 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,022 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:19,022 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:19,026 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:19,026 DEBUG decorator Функция parse_server_msg((<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63819), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:08:19,521 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,523 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:19,524 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602499.0163019, 'user': {'account_name': 'cl_3'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:19,524 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:19,524 DEBUG decorator Функция parse_server_msg((<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63820), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,526 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:19,528 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:19,529 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:19,532 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:19,532 DEBUG decorator Функция parse_server_msg((<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63820), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:08:21,767 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:21,768 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:08:21,903 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:21,904 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:08:21,906 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:08:21,908 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:08:21,910 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:21,910 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602501.9089127, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:08:21,979 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:21,979 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:08:21,982 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:08:21,984 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:08:21,985 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:21,987 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:21,988 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602501.9089127, 'user': {'account_name': 'cl_1'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63822)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:21,988 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:21,988 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602501.9847713, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:08:21,988 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:21,988 DEBUG decorator Функция parse_server_msg((<socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63821), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:08:21,990 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:21,993 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:21,994 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:21,997 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:21,997 DEBUG decorator Функция parse_server_msg((<socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63821), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:08:22,051 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:22,052 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:08:22,054 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:08:22,056 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:08:22,059 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:22,061 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:22,061 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:22,061 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602502.0566373, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:08:22,061 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602501.9847713, 'user': {'account_name': 'cl_2'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63823)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:22,062 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:22,062 DEBUG decorator Функция parse_server_msg((<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63822), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:08:22,064 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:22,065 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:22,066 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:22,069 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:22,069 DEBUG decorator Функция parse_server_msg((<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63822), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:08:22,565 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:22,568 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:22,568 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:22,568 DEBUG decorator Функция parse_server_msg((<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63823), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 400 Имя пользователя уже занято. 
+T, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>], {'cl_1': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63815)>, 'cl_2': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63816)>, 'cl_3': <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63817)>}), {}), возвращает None 
+2020-03-31 00:08:22,571 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:08:22,573 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:22,573 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:22,577 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:22,577 DEBUG decorator Функция parse_server_msg((<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63823), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:08:26,919 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:26,919 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:08:27,053 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:27,053 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:08:27,056 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:08:27,059 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:08:27,062 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:27,062 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602507.058575, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:08:27,065 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:27,068 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:27,068 DEBUG decorator Функция parse_server_msg((<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63824), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:08:27,071 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: None 
+2020-03-31 00:08:27,075 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:08:27,077 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:27,080 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:08:27,080 DEBUG decorator Функция parse_server_msg((<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63824), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:08:27,162 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:27,162 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:08:27,167 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:08:27,257 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:27,258 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:08:27,260 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:08:28,170 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 00:08:28,264 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 00:08:32,189 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:32,189 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:08:32,310 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:32,310 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:08:32,312 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:08:32,315 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:08:32,317 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:32,317 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602512.3153567, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:08:32,401 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:32,401 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:08:32,403 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:08:32,405 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:08:32,406 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:08:32,407 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:32,407 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602512.405189, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:08:32,408 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:32,408 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:32,408 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602512.3153567, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>}), {}), возвращает None 
+2020-03-31 00:08:32,408 DEBUG decorator Функция parse_server_msg((<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63827), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:08:32,410 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:08:32,413 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:32,481 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:08:32,481 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:08:32,483 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:08:32,485 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:08:32,487 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:08:32,488 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:08:32,488 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602512.4855578, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:08:32,488 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:32,489 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602512.405189, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>}), {}), возвращает None 
+2020-03-31 00:08:32,489 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:32,489 DEBUG decorator Функция parse_server_msg((<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63828), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:08:32,491 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:08:32,493 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:32,991 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:08:32,993 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:32,993 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:08:32,994 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602512.4855578, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>}), {}), возвращает None 
+2020-03-31 00:08:32,994 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63829), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:08:32,996 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:08:32,998 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:08:53,306 DEBUG hw_3_1_client Сформировано сообщение: {'action': 'message', 'time': 1585602533.306377, 'from': 'cl_3', 'to': 'cl_1', 'message_text': 'Привет'} 
+2020-03-31 00:08:53,306 INFO hw_3_1_client Отправлено сообщение для пользователя cl_1 
+2020-03-31 00:08:53,312 DEBUG decorator Функция create_client_msg вызвана из user_controls_cmd 
+2020-03-31 00:08:53,312 DEBUG decorator Функция create_client_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63829), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:08:53,503 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:08:53,503 DEBUG decorator Функция parse_client_msg(({'action': 'message', 'time': 1585602533.306377, 'from': 'cl_3', 'to': 'cl_1', 'message_text': 'Привет'}, [{'action': 'message', 'time': 1585602533.306377, 'from': 'cl_3', 'to': 'cl_1', 'message_text': 'Привет'}], <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>}), {}), возвращает None 
+2020-03-31 00:08:53,506 INFO hw_3_1_client Получено сообщение от пользователя cl_3: Привет 
+2020-03-31 00:08:53,507 DEBUG decorator Функция route_client_msg вызвана из main 
+2020-03-31 00:08:53,508 DEBUG decorator Функция route_client_msg(({'action': 'message', 'time': 1585602533.306377, 'from': 'cl_3', 'to': 'cl_1', 'message_text': 'Привет'}, {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>}, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>]), {}), возвращает None 
+2020-03-31 00:09:37,483 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:09:37,483 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'Krepkov') 
+2020-03-31 00:09:37,487 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Krepkov 
+2020-03-31 00:09:37,488 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя Krepkov 
+2020-03-31 00:09:37,491 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:09:37,491 DEBUG decorator Функция create_presence_msg(('Krepkov',), {}), возвращает {'action': 'presence', 'time': 1585602577.4886758, 'user': {'account_name': 'Krepkov'}} 
+2020-03-31 00:09:37,990 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:09:37,993 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:09:37,993 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:09:37,993 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602577.4886758, 'user': {'account_name': 'Krepkov'}}, [], <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, 'Krepkov': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>}), {}), возвращает None 
+2020-03-31 00:09:37,996 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:09:37,997 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:09:45,720 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:09:45,721 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:09:45,836 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:09:45,837 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:09:45,839 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:09:45,841 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:09:45,843 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:09:45,843 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602585.8413596, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:09:45,930 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:09:45,930 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:09:45,932 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:09:45,934 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:09:45,935 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:45,936 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:09:45,936 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602585.9341867, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:09:45,937 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:09:45,937 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:09:45,937 DEBUG decorator Функция parse_server_msg((<socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63831), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:09:45,937 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602585.8413596, 'user': {'account_name': 'cl_1'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, <socket.socket fd=708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63832)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, 'Krepkov': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>}), {}), возвращает None 
+2020-03-31 00:09:45,939 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:45,940 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:09:45,941 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:09:45,944 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:09:45,945 DEBUG decorator Функция parse_server_msg((<socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63831), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:09:46,011 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:09:46,012 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:09:46,014 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:09:46,016 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:09:46,017 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,019 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:09:46,019 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:09:46,019 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602586.016533, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:09:46,020 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602585.9341867, 'user': {'account_name': 'cl_2'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63833)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, 'Krepkov': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>}), {}), возвращает None 
+2020-03-31 00:09:46,020 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:09:46,020 DEBUG decorator Функция parse_server_msg((<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63832), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,022 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,024 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:09:46,024 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:09:46,028 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:09:46,028 DEBUG decorator Функция parse_server_msg((<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63832), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:09:46,523 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,525 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:09:46,525 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602586.016533, 'user': {'account_name': 'cl_3'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>], {'cl_1': <socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63827)>, 'cl_2': <socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63828)>, 'cl_3': <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63829)>, 'Krepkov': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63830)>}), {}), возвращает None 
+2020-03-31 00:09:46,525 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:09:46,525 DEBUG decorator Функция parse_server_msg((<socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63833), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,528 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 00:09:46,529 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:09:46,530 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:09:46,533 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:09:46,534 DEBUG decorator Функция parse_server_msg((<socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63833), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:10:10,159 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:10:10,161 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:10:10,161 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:10:10,165 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:10:10,166 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63829), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:10:10,174 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:10:10,174 DEBUG decorator Функция parse_server_msg((<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63828), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 00:10:10,174 DEBUG decorator Функция parse_server_msg((<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63827), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 00:10:17,290 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:17,290 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:10:17,395 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:17,395 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:10:17,398 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:10:17,399 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:10:17,401 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:17,401 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602617.3996902, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:10:17,490 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:17,490 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:10:17,492 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:10:17,494 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:10:17,495 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:17,496 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:17,496 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602617.4940145, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:10:17,497 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:17,497 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:17,497 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602617.3996902, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>}), {}), возвращает None 
+2020-03-31 00:10:17,497 DEBUG decorator Функция parse_server_msg((<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63834), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:10:17,500 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:17,501 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:10:17,551 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:17,551 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:10:17,553 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:10:17,555 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:10:17,556 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:17,557 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:17,557 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602617.5553997, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:10:17,558 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:17,558 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:17,558 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63835), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:10:17,558 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602617.4940145, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>, <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63836)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, 'cl_2': <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>}), {}), возвращает None 
+2020-03-31 00:10:17,560 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:17,562 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:10:18,061 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:18,064 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:18,064 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:18,064 DEBUG decorator Функция parse_server_msg((<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63836), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:10:18,064 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602617.5553997, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63836)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>, <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63836)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63834)>, 'cl_2': <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63835)>, 'cl_3': <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63836)>}), {}), возвращает None 
+2020-03-31 00:10:18,066 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:18,069 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:10:49,866 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:49,866 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:10:50,000 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:50,000 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:10:50,002 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:10:50,004 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:10:50,006 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:50,006 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585602650.0044405, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:10:50,081 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:50,081 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:10:50,083 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:10:50,085 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:10:50,087 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:50,088 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:50,088 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585602650.0857892, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:10:50,089 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:50,089 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:50,089 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602650.0044405, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, [<socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>], {'cl_1': <socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>}), {}), возвращает None 
+2020-03-31 00:10:50,089 DEBUG decorator Функция parse_server_msg((<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63845), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:10:50,092 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:50,093 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:10:50,155 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:10:50,155 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:10:50,157 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:10:50,160 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:10:50,161 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:50,163 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:10:50,163 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585602650.1601508, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:10:50,163 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:50,163 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602650.0857892, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>, [<socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>, <socket.socket fd=664, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63847)>], {'cl_1': <socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, 'cl_2': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>}), {}), возвращает None 
+2020-03-31 00:10:50,163 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:50,164 DEBUG decorator Функция parse_server_msg((<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63846), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:10:50,166 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:50,168 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:10:50,667 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:10:50,669 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:10:50,669 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:10:50,669 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585602650.1601508, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=664, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63847)>, [<socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>, <socket.socket fd=664, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63847)>], {'cl_1': <socket.socket fd=660, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63845)>, 'cl_2': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63846)>, 'cl_3': <socket.socket fd=664, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63847)>}), {}), возвращает None 
+2020-03-31 00:10:50,669 DEBUG decorator Функция parse_server_msg((<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63847), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:10:50,671 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:10:50,673 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:12:06,796 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 00:12:06,805 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 00:12:06,806 DEBUG decorator Функция parse_server_msg((<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63847), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 00:30:43,236 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:30:43,236 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 00:30:43,339 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:30:43,339 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 00:30:43,341 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 00:30:43,343 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 00:30:43,345 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:30:43,345 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585603843.3432732, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 00:30:43,411 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:30:43,411 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 00:30:43,414 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 00:30:43,415 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 00:30:43,416 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:30:43,417 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:30:43,418 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585603843.4156384, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 00:30:43,418 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:30:43,418 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585603843.3432732, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, [<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>], {'cl_1': <socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>}), {}), возвращает None 
+2020-03-31 00:30:43,419 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:30:43,419 DEBUG decorator Функция parse_server_msg((<socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64033), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 00:30:43,422 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:30:43,423 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:30:43,475 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 00:30:43,475 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 00:30:43,477 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 00:30:43,479 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 00:30:43,480 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:30:43,481 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 00:30:43,481 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585603843.47902, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 00:30:43,482 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:30:43,482 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585603843.4156384, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>, [<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64035)>], {'cl_1': <socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, 'cl_2': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>}), {}), возвращает None 
+2020-03-31 00:30:43,482 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:30:43,482 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64034), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 00:30:43,484 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:30:43,486 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 00:30:43,985 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 00:30:43,987 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 00:30:43,987 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 00:30:43,987 DEBUG decorator Функция parse_server_msg((<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64035), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 00:30:43,988 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585603843.47902, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64035)>, [<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64035)>], {'cl_1': <socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64033)>, 'cl_2': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64034)>, 'cl_3': <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64035)>}), {}), возвращает None 
+2020-03-31 00:30:43,990 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 00:30:43,994 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:28:38,041 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:38,041 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:28:38,165 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:38,165 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:28:38,168 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:28:38,169 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:28:38,172 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:28:38,172 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607318.1699862, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:28:38,175 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:28:38,177 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:28:38,177 DEBUG decorator Функция parse_server_msg((<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64538), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:28:38,180 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: None 
+2020-03-31 01:28:38,182 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:28:38,186 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:28:38,186 DEBUG decorator Функция parse_server_msg((<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64538), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:28:38,187 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:28:38,257 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:38,257 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:28:38,259 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:28:38,346 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:38,347 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:28:38,349 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:28:39,261 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:28:39,352 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:28:41,662 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:41,663 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:28:41,798 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:41,798 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:28:41,800 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:28:41,802 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:28:41,804 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:28:41,805 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607321.8028123, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:28:41,855 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:41,856 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:28:41,858 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:28:41,860 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 01:28:41,861 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:28:41,863 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:28:41,863 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:28:41,863 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:28:41,863 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64541), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 01:28:41,863 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585607321.8602057, 'user': {'account_name': 'cl_2'}} 
+sFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, [<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>], {'cl_1': <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>}), {}), возвращает None 
+2020-03-31 01:28:41,866 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:28:41,868 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:28:41,951 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:28:41,951 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:28:41,953 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:28:41,955 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 01:28:41,956 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:28:41,957 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:28:41,957 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585607321.9550285, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 01:28:41,958 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:28:41,958 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64542), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 01:28:41,958 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:28:41,958 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607321.8602057, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>, [<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64543)>], {'cl_1': <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, 'cl_2': <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>}), {}), возвращает None 
+2020-03-31 01:28:41,961 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:28:41,962 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:28:42,461 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:28:42,464 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:28:42,464 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:28:42,464 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607321.9550285, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64543)>, [<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64543)>], {'cl_1': <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64541)>, 'cl_2': <socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64542)>, 'cl_3': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64543)>}), {}), возвращает None 
+2020-03-31 01:28:42,464 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64543), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 01:28:42,467 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:28:42,469 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:03,548 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:03,548 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:03,549 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:03,552 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:03,552 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:03,553 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64543), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 01:29:03,553 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64541), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:29:03,553 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:03,553 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64542), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 01:29:07,558 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:07,558 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:29:07,691 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:07,691 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:29:07,693 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:29:07,695 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:29:07,697 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:07,698 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607347.695328, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:29:07,778 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:07,779 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:29:07,781 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:29:07,783 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 01:29:07,784 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:07,785 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:07,785 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585607347.7831645, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 01:29:07,786 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:07,786 DEBUG decorator Функция parse_server_msg вызвана из main 
+me': 1585607347.695328, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>}), {}), возвращает None 
+2020-03-31 01:29:07,786 DEBUG decorator Функция parse_server_msg((<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64544), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 01:29:07,788 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:07,790 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:07,859 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:07,859 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:29:07,862 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:29:07,864 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 01:29:07,865 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:07,866 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:07,866 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585607347.8640141, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 01:29:07,867 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:07,867 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607347.7831645, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>, <socket.socket fd=668, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64546)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, 'cl_2': <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>}), {}), возвращает None 
+2020-03-31 01:29:07,867 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:07,868 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64545), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 01:29:07,870 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:07,871 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:08,371 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:08,373 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:08,373 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607347.8640141, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=668, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64546)>, [<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>, <socket.socket fd=668, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64546)>], {'cl_1': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64544)>, 'cl_2': <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64545)>, 'cl_3': <socket.socket fd=668, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64546)>}), {}), возвращает None 
+2020-03-31 01:29:08,374 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:08,374 DEBUG decorator Функция parse_server_msg((<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64546), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 01:29:08,376 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:08,378 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:23,753 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:23,754 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:23,759 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:23,759 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:23,759 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64545), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 01:29:23,759 DEBUG decorator Функция parse_server_msg((<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64546), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 01:29:29,335 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:29,335 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:29:29,491 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:29,491 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:29:29,493 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:29:29,495 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:29:29,497 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:29,497 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607369.4953003, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:29:29,571 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:29,572 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:29:29,574 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:29:29,576 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 01:29:29,578 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:29,579 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:29,580 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585607369.5761492, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 01:29:29,581 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:29,581 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64547), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 01:29:29,582 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:29,582 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607369.4953003, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>}), {}), возвращает None 
+2020-03-31 01:29:29,584 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:29,586 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:29,647 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:29,647 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:29:29,652 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:29:29,654 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 01:29:29,655 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:29,656 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:29,656 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585607369.6540043, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 01:29:29,657 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:29,657 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607369.5761492, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64550)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, 'cl_2': <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>}), {}), возвращает None 
+2020-03-31 01:29:29,657 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:29,657 DEBUG decorator Функция parse_server_msg((<socket.socket fd=684, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64549), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 01:29:29,659 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:29,661 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:30,160 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:30,163 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:30,163 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:30,163 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607369.6540043, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64550)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>, <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64550)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64547)>, 'cl_2': <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64549)>, 'cl_3': <socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64550)>}), {}), возвращает None 
+2020-03-31 01:29:30,163 DEBUG decorator Функция parse_server_msg((<socket.socket fd=676, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64550), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 01:29:30,166 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:30,168 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:39,145 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:39,145 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:29:39,269 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:39,269 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:29:39,272 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:29:39,274 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:29:39,277 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:39,277 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607379.2748508, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:29:39,280 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:39,282 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:39,282 DEBUG decorator Функция parse_server_msg((<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64552), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:29:39,285 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: None 
+2020-03-31 01:29:39,287 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:39,289 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:39,291 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:39,291 DEBUG decorator Функция parse_server_msg((<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64552), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:29:39,364 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:39,364 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:29:39,367 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:29:39,445 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:39,445 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:29:39,448 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:29:40,369 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:29:40,449 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:29:41,437 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:41,437 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:29:41,575 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:41,575 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:29:41,577 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:29:41,580 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:29:41,582 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:41,582 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607381.5800924, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:29:41,662 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:41,662 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:29:41,664 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:29:41,666 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 01:29:41,667 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:41,669 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:41,669 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585607381.66693, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 01:29:41,669 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:41,670 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:41,670 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607381.5800924, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>}), {}), возвращает None 
+2020-03-31 01:29:41,670 DEBUG decorator Функция parse_server_msg((<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64555), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 01:29:41,672 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:41,673 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:41,729 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:41,729 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:29:41,732 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:29:41,734 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 01:29:41,735 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:41,736 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:41,736 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585607381.734304, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 01:29:41,737 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:41,737 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:41,737 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607381.66693, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, 'cl_2': <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>}), {}), возвращает None 
+2020-03-31 01:29:41,737 DEBUG decorator Функция parse_server_msg((<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64556), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 01:29:41,739 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:41,741 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:42,240 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:29:42,242 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:42,242 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:42,242 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64557), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+.0.0.1', 7777), raddr=('127.0.0.1', 64557)>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, 'cl_2': <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, 'cl_3': <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>}), {}), возвращает None 
+2020-03-31 01:29:42,245 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:29:42,247 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:46,353 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:46,353 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:29:46,480 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:46,481 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 01:29:46,483 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 01:29:46,486 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 01:29:46,488 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:46,488 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585607386.486082, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 01:29:46,569 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:46,570 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 01:29:46,572 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 01:29:46,574 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 01:29:46,575 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,577 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:46,577 DEBUG decorator Функция parse_server_msg((<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64558), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,577 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607386.486082, 'user': {'account_name': 'cl_1'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64559)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, 'cl_2': <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, 'cl_3': <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>}), {}), возвращает None 
+2020-03-31 01:29:46,578 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:46,578 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585607386.5744174, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 01:29:46,580 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,582 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:46,584 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:46,586 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:46,586 DEBUG decorator Функция parse_server_msg((<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64558), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:29:46,656 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:29:46,656 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 01:29:46,659 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 01:29:46,660 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 01:29:46,661 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,663 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:29:46,663 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585607386.660756, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 01:29:46,663 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:46,663 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607386.5744174, 'user': {'account_name': 'cl_2'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64560)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, 'cl_2': <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, 'cl_3': <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>}), {}), возвращает None 
+2020-03-31 01:29:46,664 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:46,664 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64559), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,666 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:46,668 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:46,669 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:46,672 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:46,672 DEBUG decorator Функция parse_server_msg((<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64559), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 01:29:47,167 DEBUG hw_3_1_client Получено сообщение от сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:47,169 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:29:47,169 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:29:47,169 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585607386.660756, 'user': {'account_name': 'cl_3'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>], {'cl_1': <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64555)>, 'cl_2': <socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64556)>, 'cl_3': <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64557)>}), {}), возвращает None 
+2020-03-31 01:29:47,170 DEBUG decorator Функция parse_server_msg((<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64560), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 400 Имя пользователя уже занято. 
+2020-03-31 01:29:47,172 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 400 Имя пользователя уже занято. 
+2020-03-31 01:29:47,173 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:47,174 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:29:47,177 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:47,177 DEBUG decorator Функция parse_server_msg((<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64560), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 01:29:52,101 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:52,102 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:52,102 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg((<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64557), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает None 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg((<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64556), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает None 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 01:29:52,106 DEBUG decorator Функция parse_server_msg((<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64555), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 01:31:39,347 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:31:39,347 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'Krepkov') 
+2020-03-31 01:31:39,349 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Krepkov 
+2020-03-31 01:31:40,350 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:32:18,260 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:32:18,260 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'Krepkov') 
+2020-03-31 01:32:18,265 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Krepkov 
+2020-03-31 01:32:19,268 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 01:51:43,352 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:51:43,352 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 01:51:47,714 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 01:51:47,714 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'Krepkov') 
+2020-03-31 01:51:47,717 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Krepkov 
+2020-03-31 01:51:47,718 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя Krepkov 
+2020-03-31 01:51:47,720 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 01:51:47,720 DEBUG decorator Функция create_presence_msg(('Krepkov',), {}), возвращает {'action': 'presence', 'time': 1585608707.718963, 'user': {'account_name': 'Krepkov'}} 
+2020-03-31 01:51:48,219 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 01:51:48,222 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 01:51:48,222 DEBUG decorator Функция parse_server_msg((<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64669), raddr=('127.0.0.1', 7777)>, 'Krepkov'), {}), возвращает 200 OK 
+2020-03-31 01:51:48,222 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:51:48,222 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585608707.718963, 'user': {'account_name': 'Krepkov'}}, [], <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>], {'Krepkov': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>}), {}), возвращает None 
+2020-03-31 01:51:48,225 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 01:51:48,228 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 01:52:06,911 DEBUG hw_3_1_client Сформировано сообщение: {'action': 'message', 'time': 1585608726.911076, 'from': 'Krepkov', 'to': 'Krepkov', 'message_text': 'Hello world'} 
+2020-03-31 01:52:06,911 INFO hw_3_1_client Отправлено сообщение для пользователя Krepkov 
+2020-03-31 01:52:06,917 DEBUG decorator Функция create_client_msg вызвана из user_controls_cmd 
+2020-03-31 01:52:06,917 DEBUG decorator Функция create_client_msg((<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64669), raddr=('127.0.0.1', 7777)>, 'Krepkov'), {}), возвращает None 
+2020-03-31 01:52:07,234 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 01:52:07,234 DEBUG decorator Функция parse_client_msg(({'action': 'message', 'time': 1585608726.911076, 'from': 'Krepkov', 'to': 'Krepkov', 'message_text': 'Hello world'}, [{'action': 'message', 'time': 1585608726.911076, 'from': 'Krepkov', 'to': 'Krepkov', 'message_text': 'Hello world'}], <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>], {'Krepkov': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>}), {}), возвращает None 
+2020-03-31 01:52:07,236 INFO hw_3_1_client Получено сообщение от пользователя Krepkov: Hello world 
+2020-03-31 01:52:07,239 DEBUG decorator Функция route_client_msg вызвана из main 
+2020-03-31 01:52:07,239 DEBUG decorator Функция route_client_msg(({'action': 'message', 'time': 1585608726.911076, 'from': 'Krepkov', 'to': 'Krepkov', 'message_text': 'Hello world'}, {'Krepkov': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>}, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64669)>]), {}), возвращает None 
+2020-03-31 02:04:23,839 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:04:23,839 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 02:04:23,995 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:04:23,998 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 02:04:24,002 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 02:04:24,006 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 02:04:24,009 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:04:24,009 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585609464.006013, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 02:04:24,053 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:04:24,053 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 02:04:24,056 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 02:04:24,057 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 02:04:24,058 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:04:24,060 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:04:24,060 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585609464.0579162, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 02:04:24,060 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:04:24,061 DEBUG decorator Функция parse_server_msg((<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64771), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 02:04:24,061 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585609464.006013, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>}), {}), возвращает None 
+2020-03-31 02:04:24,063 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:04:24,067 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:04:24,126 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:04:24,126 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 02:04:24,129 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 02:04:24,132 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 02:04:24,133 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:04:24,135 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:04:24,135 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:04:24,136 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585609464.1322782, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 02:04:24,136 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:04:24,136 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585609464.0579162, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>, <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64773)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, 'cl_2': <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>}), {}), возвращает None 
+2020-03-31 02:04:24,136 DEBUG decorator Функция parse_server_msg((<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64772), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 02:04:24,138 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:04:24,139 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:04:24,639 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:04:24,641 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:04:24,641 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:04:24,642 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585609464.1322782, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64773)>, [<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>, <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64773)>], {'cl_1': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64771)>, 'cl_2': <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64772)>, 'cl_3': <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64773)>}), {}), возвращает None 
+2020-03-31 02:04:24,642 DEBUG decorator Функция parse_server_msg((<socket.socket fd=740, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64773), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 02:04:24,644 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:04:24,648 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:00,592 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:00,592 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 02:36:00,719 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:00,719 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 02:36:00,722 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 02:36:00,730 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 02:36:00,732 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:00,732 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585611360.7300746, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 02:36:00,736 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:00,739 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:00,739 DEBUG decorator Функция parse_server_msg((<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58722), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 02:36:00,739 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:36:00,739 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611360.7300746, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>], {'cl_1': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>}), {}), возвращает None 
+2020-03-31 02:36:00,741 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:00,775 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:00,839 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:00,839 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 02:36:00,842 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 02:36:00,844 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 02:36:00,847 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:00,847 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585611360.84486, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 02:36:00,892 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:00,893 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 02:36:00,898 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 02:36:00,899 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 02:36:00,900 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:00,901 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:00,902 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585611360.899758, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 02:36:00,902 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:36:00,902 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611360.84486, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58723)>, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58723)>, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58724)>], {'cl_1': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>, 'cl_2': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58723)>}), {}), возвращает None 
+2020-03-31 02:36:00,903 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:00,903 DEBUG decorator Функция parse_server_msg((<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58723), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 02:36:00,905 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:00,906 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:01,405 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:01,407 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:36:01,407 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:01,408 DEBUG decorator Функция parse_server_msg((<socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58724), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 02:36:01,408 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611360.899758, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58724)>, [<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58723)>, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58724)>], {'cl_1': <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58722)>, 'cl_2': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58723)>, 'cl_3': <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58724)>}), {}), возвращает None 
+2020-03-31 02:36:01,410 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:01,413 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:39,189 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:39,189 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 02:36:39,324 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:39,324 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 02:36:39,327 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 02:36:39,329 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 02:36:39,332 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:39,332 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585611399.3294466, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 02:36:39,335 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 02:36:39,337 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:39,337 DEBUG decorator Функция parse_server_msg((<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58725), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 02:36:39,340 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: None 
+2020-03-31 02:36:39,341 CRITICAL hw_3_1_client Потеряно соединение с сервером. 
+2020-03-31 02:36:39,342 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:39,346 DEBUG decorator Функция parse_server_msg вызвана из run 
+2020-03-31 02:36:39,346 DEBUG decorator Функция parse_server_msg((<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58725), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает None 
+2020-03-31 02:36:39,440 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:39,440 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 02:36:39,443 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 02:36:39,510 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:39,510 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 02:36:39,514 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 02:36:40,446 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 02:36:40,517 CRITICAL hw_3_1_client Не удалось подключиться к серверу 127.0.0.1:7777, запрос на подключение отклонён 
+2020-03-31 02:36:44,215 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:44,219 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 02:36:44,230 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:44,230 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 02:36:44,233 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 02:36:44,235 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 02:36:44,237 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:44,237 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585611404.2353325, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 02:36:44,282 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:44,282 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 02:36:44,286 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 02:36:44,310 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 02:36:44,317 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:44,319 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:36:44,320 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611404.2353325, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, [<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>], {'cl_1': <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>}), {}), возвращает None 
+2020-03-31 02:36:44,320 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58728), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 02:36:44,322 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:44,322 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:44,322 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585611404.310193, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 02:36:44,335 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:44,399 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 02:36:44,400 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 02:36:44,402 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 02:36:44,405 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 02:36:44,406 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:44,408 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:44,409 DEBUG decorator Функция parse_server_msg((<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58729), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 02:36:44,409 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611404.310193, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>, [<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>, <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58730)>], {'cl_1': <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, 'cl_2': <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>}), {}), возвращает None 
+2020-03-31 02:36:44,411 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:44,419 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 02:36:44,421 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585611404.4050167, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 02:36:44,434 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 02:36:44,913 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 02:36:44,915 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 02:36:44,915 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585611404.4050167, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58730)>, [<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>, <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58730)>], {'cl_1': <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58728)>, 'cl_2': <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58729)>, 'cl_3': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58730)>}), {}), возвращает None 
+2020-03-31 02:36:44,916 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 02:36:44,916 DEBUG decorator Функция parse_server_msg((<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58730), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 02:36:44,918 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 02:36:44,920 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 20:57:19,532 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 20:57:19,532 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('', 7777) 
+2020-03-31 20:57:19,592 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 20:57:19,592 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_1') 
+2020-03-31 20:57:19,595 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_1 
+2020-03-31 20:57:19,597 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_1 
+2020-03-31 20:57:19,599 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 20:57:19,600 DEBUG decorator Функция create_presence_msg(('cl_1',), {}), возвращает {'action': 'presence', 'time': 1585677439.5977323, 'user': {'account_name': 'cl_1'}} 
+2020-03-31 20:57:19,660 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 20:57:19,660 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_2') 
+2020-03-31 20:57:19,663 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_2 
+2020-03-31 20:57:19,665 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_2 
+2020-03-31 20:57:19,666 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 20:57:19,667 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 20:57:19,667 DEBUG decorator Функция create_presence_msg(('cl_2',), {}), возвращает {'action': 'presence', 'time': 1585677439.6651073, 'user': {'account_name': 'cl_2'}} 
+2020-03-31 20:57:19,668 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 20:57:19,668 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 20:57:19,668 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585677439.5977323, 'user': {'account_name': 'cl_1'}}, [], <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, [<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>], {'cl_1': <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>}), {}), возвращает None 
+2020-03-31 20:57:19,668 DEBUG decorator Функция parse_server_msg((<socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52130), raddr=('127.0.0.1', 7777)>, 'cl_1'), {}), возвращает 200 OK 
+2020-03-31 20:57:19,671 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 20:57:19,673 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 20:57:19,731 DEBUG decorator Функция parse_cmd_arguments вызвана из main 
+2020-03-31 20:57:19,731 DEBUG decorator Функция parse_cmd_arguments((), {}), возвращает ('127.0.0.1', 7777, 'cl_3') 
+2020-03-31 20:57:19,734 INFO hw_3_1_client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: cl_3 
+2020-03-31 20:57:19,736 DEBUG hw_3_1_client Сформировано presence сообщение для пользователя cl_3 
+2020-03-31 20:57:19,737 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 20:57:19,739 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 20:57:19,739 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 20:57:19,739 DEBUG decorator Функция parse_server_msg((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52131), raddr=('127.0.0.1', 7777)>, 'cl_2'), {}), возвращает 200 OK 
+2020-03-31 20:57:19,739 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585677439.6651073, 'user': {'account_name': 'cl_2'}}, [], <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>, [<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>, <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>], {'cl_1': <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, 'cl_2': <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>}), {}), возвращает None 
+2020-03-31 20:57:19,740 DEBUG decorator Функция create_presence_msg вызвана из main 
+2020-03-31 20:57:19,741 DEBUG decorator Функция create_presence_msg(('cl_3',), {}), возвращает {'action': 'presence', 'time': 1585677439.736474, 'user': {'account_name': 'cl_3'}} 
+2020-03-31 20:57:19,742 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 20:57:19,744 DEBUG hw_3_1_client ** Процессы запущены ** 
+2020-03-31 20:57:20,243 DEBUG hw_3_1_client Получено приветственное сообщение от сервера: 200 OK 
+2020-03-31 20:57:20,246 DEBUG decorator Функция parse_client_msg вызвана из main 
+2020-03-31 20:57:20,246 DEBUG decorator Функция parse_client_msg(({'action': 'presence', 'time': 1585677439.736474, 'user': {'account_name': 'cl_3'}}, [], <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>, [<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>, <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>], {'cl_1': <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, 'cl_2': <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52131)>, 'cl_3': <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>}), {}), возвращает None 
+2020-03-31 20:57:20,246 DEBUG decorator Функция parse_server_msg вызвана из main 
+2020-03-31 20:57:20,246 DEBUG decorator Функция parse_server_msg((<socket.socket fd=668, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>, 'cl_3'), {}), возвращает 200 OK 
+2020-03-31 20:57:20,249 INFO hw_3_1_client Установлено соединение с сервером. Ответ сервера: 200 OK 
+2020-03-31 20:57:20,251 DEBUG hw_3_1_client ** Процессы запущены ** 

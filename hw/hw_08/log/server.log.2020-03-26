@@ -1,0 +1,16 @@
+2020-03-26 16:20:15,274 INFO hw_3_1_server Сервер запущен 
+2020-03-26 16:20:15,276 WARNING hw_3_1_server Нет адреса, использован стандартный 
+2020-03-26 16:20:15,276 WARNING hw_3_1_server Выбран стандарный порт: 7777 
+2020-03-26 16:20:18,207 DEBUG hw_3_1_server 1. Подтверждение 
+2020-03-26 16:20:18,240 DEBUG decorator Функция create_presence вызвана из main 
+2020-03-26 16:20:18,241 DEBUG decorator Функция create_presence((), {}), возвращает {'action': 'presence', 'time': 1585228818.2079644, 'user': {'user_name': 'user_name'}} 
+2020-03-26 16:20:18,241 DEBUG hw_3_1_server 2. Получение сообщения 
+2020-03-26 16:20:18,242 INFO hw_3_1_server Message: {'action': 'presence', 'time': 1585228818.2079644, 'user': {'user_name': 'user_name'}} 
+2020-03-26 16:20:18,242 DEBUG hw_3_1_server Ответ от сервера: ОК 
+2020-03-26 16:20:18,276 DEBUG decorator Функция server_response вызвана из main 
+2020-03-26 16:20:18,276 DEBUG decorator Функция server_response(({'action': 'presence', 'time': 1585228818.2079644, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-26 16:20:18,277 DEBUG hw_3_1_server 3. Отправка ответа 
+2020-03-26 16:20:18,283 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-26 16:20:18,283 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-26 16:20:18,286 DEBUG decorator Функция main вызвана из <module> 
+2020-03-26 16:20:18,286 DEBUG decorator Функция main((), {}), возвращает None 

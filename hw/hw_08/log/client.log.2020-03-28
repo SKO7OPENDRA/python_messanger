@@ -1,0 +1,88 @@
+2020-03-28 22:34:58,084 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:34:58,099 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585424098.0334055, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:35:16,031 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:35:16,032 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:35:16,032 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:35:16,032 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:35:16,059 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:35:16,060 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585424116.0373824, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:35:16,063 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:35:16,067 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:35:16,067 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585424116.0373824, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:35:16,073 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:35:16,073 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:35:16,076 INFO hw_3_1_client Ответ: {'response': 200} 
+2020-03-28 22:36:17,573 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:36:17,574 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:36:17,574 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:36:17,574 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:36:17,601 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:36:17,601 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585424177.5795417, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:36:17,604 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:36:17,606 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:36:17,607 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585424177.5795417, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:36:17,612 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:36:17,612 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:36:17,615 INFO hw_3_1_client Ответ: {'response': 200} 
+2020-03-28 22:36:20,347 INFO hw_3_1_client1 Клиент запущен 
+2020-03-28 22:36:20,348 WARNING hw_3_1_client1 Нет адреса сервера 
+2020-03-28 22:36:20,348 WARNING hw_3_1_client1 Выбран стандарный порт: 7777 
+2020-03-28 22:36:20,348 DEBUG hw_3_1_client1 Начало соединения 
+2020-03-28 22:36:20,375 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:36:20,375 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585424180.3534296, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:36:20,378 DEBUG hw_3_1_client1 Ожидание ответа 
+2020-03-28 22:36:20,381 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:36:20,381 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585424180.3534296, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:36:20,387 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:36:20,387 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:36:20,390 INFO hw_3_1_client1 Ответ: {'response': 200} 
+2020-03-28 22:48:31,390 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:48:31,391 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:48:31,391 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:48:31,391 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:48:31,419 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:48:31,419 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585424911.3974504, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:48:31,422 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:48:31,444 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:48:31,444 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585424911.3974504, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:48:31,450 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:48:31,451 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:48:31,453 INFO hw_3_1_client Ответ: {'response': 200} 
+2020-03-28 22:55:19,366 ERROR hw_3_1_client Исключение: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение 
+2020-03-28 22:55:19,367 INFO hw_3_1_client Клиент остановлен 
+2020-03-28 22:55:24,426 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:55:24,428 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:55:24,428 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:55:24,428 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:55:24,456 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:55:24,456 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585425324.4332411, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:55:24,459 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:55:24,483 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:55:24,483 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585425324.4332411, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:55:24,489 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:55:24,489 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:55:24,493 INFO hw_3_1_client Ответ: {'response': 200} 
+2020-03-28 22:56:47,223 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:56:47,224 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:56:47,224 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:56:47,225 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:56:47,251 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:56:47,252 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585425407.2295413, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:56:47,255 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:56:47,277 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:56:47,277 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585425407.2295413, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:56:47,283 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:56:47,283 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:56:47,286 INFO hw_3_1_client Ответ: {'response': 200} 
+2020-03-28 22:58:10,469 INFO hw_3_1_client Клиент запущен 
+2020-03-28 22:58:10,470 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-28 22:58:10,470 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-28 22:58:10,470 DEBUG hw_3_1_client Начало соединения 
+2020-03-28 22:58:10,497 DEBUG decorator Функция create_message вызвана из main 
+2020-03-28 22:58:10,498 DEBUG decorator Функция create_message((), {}), возвращает {'action': 'presence', 'time': 1585425490.4755955, 'user': {'user_name': 'user_name'}} 
+2020-03-28 22:58:10,501 DEBUG hw_3_1_client Ожидание ответа 
+2020-03-28 22:58:10,523 DEBUG decorator Функция message_response вызвана из main 
+2020-03-28 22:58:10,523 DEBUG decorator Функция message_response(({'action': 'presence', 'time': 1585425490.4755955, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-28 22:58:10,529 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-28 22:58:10,530 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-28 22:58:10,532 INFO hw_3_1_client Ответ: {'response': 200} 

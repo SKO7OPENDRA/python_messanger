@@ -1,0 +1,11 @@
+key3:
+  order 1: 5000₽
+  order 2: 10000₽
+  order 3: 15000₽
+  order 4: 20000₽
+key_1:
+- order 1
+- order 2
+- order 3
+- order 4
+key_2: 10

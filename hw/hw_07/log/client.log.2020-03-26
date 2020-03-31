@@ -1,0 +1,16 @@
+2020-03-26 16:20:18,201 INFO hw_3_1_client Клиент запощен 
+2020-03-26 16:20:18,202 WARNING hw_3_1_client Нет адреса сервера 
+2020-03-26 16:20:18,202 WARNING hw_3_1_client Выбран стандарный порт: 7777 
+2020-03-26 16:20:18,202 DEBUG hw_3_1_client 1. Соединение 
+2020-03-26 16:20:18,237 DEBUG decorator Функция create_presence вызвана из main 
+2020-03-26 16:20:18,237 DEBUG decorator Функция create_presence((), {}), возвращает {'action': 'presence', 'time': 1585228818.2079644, 'user': {'user_name': 'user_name'}} 
+2020-03-26 16:20:18,241 DEBUG hw_3_1_client 2. Отправка сообщения 
+2020-03-26 16:20:18,241 DEBUG hw_3_1_client 3. Ожидание ответа 
+2020-03-26 16:20:18,273 DEBUG decorator Функция server_response вызвана из main 
+2020-03-26 16:20:18,273 DEBUG decorator Функция server_response(({'action': 'presence', 'time': 1585228818.2079644, 'user': {'user_name': 'user_name'}},), {}), возвращает {'response': 200} 
+2020-03-26 16:20:18,280 DEBUG decorator Функция translate_message вызвана из main 
+2020-03-26 16:20:18,280 DEBUG decorator Функция translate_message(({'response': 200},), {}), возвращает {'response': 200} 
+2020-03-26 16:20:18,283 INFO hw_3_1_client Response: {'response': 200} 
+2020-03-26 16:20:18,285 DEBUG decorator Функция main вызвана из <module> 
+2020-03-26 16:20:18,285 DEBUG decorator Функция main((), {}), возвращает None 
+2020-03-26 16:20:18,286 INFO hw_3_1_client Клиент остановлен 
